@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bmi Calculator</string>
+    <string name="edt_heightfeet">Enter Your Height (ft)</string>
+    <string name="edt_heightinch">Enter Your Height (in)</string>
+    <string name="edt_weight">Enter Your Weight</string>
+    <string name="edt_calculate">Check My BMI</string>
+    <string name="please_enter_all_fields">Please enter all fields</string>
+    <string name="invalid_input_please_enter_numeric_values">Invalid input. Please enter numeric values.</string>
+    <string name="you_are_under_weight">You Are Under-Weight</string>
+    <string name="you_are_over_weight">You Are Over-Weight</string>
+    <string name="you_are_fit">You Are Fit</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="let_s_calculate">Let\'s Calculate</string>
+    <string name="check_again">Check Again</string>
+    <string name="congratulations">CONGRATULATIONS !</string>
+    <string name="you_are_underweight">You Are underweight..</string>
+    <string name="you_need_to_eat_more_calories_to_achieve_your_goal">You Need to eat more calories to achieve your goal</string>
+
+</resources>
