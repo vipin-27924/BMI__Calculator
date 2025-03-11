@@ -35,6 +35,8 @@ public class OverWeight extends AppCompatActivity {
     }
 
     public void main(View view) {
+
         startActivity(new Intent(OverWeight.this, MainActivity.class));
+        finish();
     }
 }

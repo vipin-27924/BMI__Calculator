@@ -66,12 +66,15 @@ public class MainActivity extends AppCompatActivity {
                     // will excecute if you are over weight
                     if (bmi > 25) {
                        startActivity(new Intent(MainActivity.this, OverWeight.class));
+                       finish();
                        //will excecute if you are under weight
                     } else if (bmi < 18) {
                         startActivity(new Intent(MainActivity.this, UnderWeight.class));
+                        finish();
                         //will excecute if you are fit
                     } else {
                         startActivity(new Intent(MainActivity.this, youarefit.class));
+                        finish();
                     }
                 } catch (NumberFormatException e) {
                     result.setText(getString(R.string.invalid_input_please_enter_numeric_values));

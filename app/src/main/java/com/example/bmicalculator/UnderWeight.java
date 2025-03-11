@@ -20,6 +20,7 @@ public class UnderWeight extends AppCompatActivity {
         EdgeToEdge.enable(this);
 
         setContentView(R.layout.activity_under_weight);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -29,5 +30,6 @@ public class UnderWeight extends AppCompatActivity {
 
     public void underWeight(View view) {
         startActivity(new Intent(UnderWeight.this , MainActivity.class));
+        finish();
     }
 }

@@ -38,5 +38,6 @@ public class IntroActivity extends AppCompatActivity {
 
     public void Calculatebmi(View view) {
         startActivity(new Intent(IntroActivity.this, MainActivity.class));
+        finish();
     }
 }

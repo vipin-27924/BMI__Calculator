@@ -30,6 +30,7 @@ public class youarefit extends AppCompatActivity {
 
         public void clebrate(View view) {
             startActivity(new Intent(youarefit.this , MainActivity.class));
+            finish();
         }
 }
 
